@@ -21,6 +21,10 @@ public class ResultCode {
 	public static final ResultCode ALIPAY_PAY_FAILURE = getResultCode(-14,"支付宝支付失败");
 	public static final ResultCode ALIPAY_PRE_ORDER_FAILURE = getResultCode(-15,"支付宝预下单失败");
 	public static final ResultCode GOODS_DOWN = getResultCode(-16,"所选商品已下架，请刷新页面重新购买");
+    /**
+     * 对于逃单的用户
+     */
+	public static final ResultCode NEED_ADD_ORDER = getResultCode(-999,"");
     private int code;
     private String msg;
     protected ResultCode(){
