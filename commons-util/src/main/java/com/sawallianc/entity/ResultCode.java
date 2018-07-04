@@ -26,6 +26,10 @@ public class ResultCode {
      * 对于逃单的用户
      */
 	public static final ResultCode NEED_ADD_ORDER = getResultCode(-999,"");
+    /**
+     * 封号
+     */
+    public static final ResultCode USER_BEING_BANNED = getResultCode(-99,"");
     private int code;
     private String msg;
     protected ResultCode(){
