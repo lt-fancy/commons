@@ -22,6 +22,7 @@ public class ResultCode {
 	public static final ResultCode ALIPAY_PRE_ORDER_FAILURE = getResultCode(-15,"支付宝预下单失败");
 	public static final ResultCode GOODS_DOWN = getResultCode(-16,"所选商品已下架，请刷新页面重新购买");
 	public static final ResultCode ALREADY_APPEALED = getResultCode(-17,"已有申诉正在处理中，请勿重复提交");
+	public static final ResultCode PRICE_NOT_MATCH_WHILE_PURCHASE = getResultCode(-18,"下单金额和商品金额不一致");
     /**
      * 对于逃单的用户
      */
