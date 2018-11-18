@@ -31,6 +31,19 @@ public class ResultCode {
      * 封号
      */
     public static final ResultCode USER_BEING_BANNED = getResultCode(-99,"");
+    /**
+     * 活动相关
+     */
+    public static final ResultCode ACTIVITY_IS_OVER = getResultCode(-30,"活动已结束，不能报名参加");
+    public static final ResultCode ACTIVITY_IS_NOT_START = getResultCode(-31,"活动未开始，不能报名参加");
+    public static final ResultCode ACTIVITY_IS_NOT_PARTICIPATE = getResultCode(-32,"活动不需要报名参加");
+    /**
+     * 礼品兑换相关
+     */
+    public static final ResultCode MEMBER_NO_ENOUGH_SCORE = getResultCode(-40,"积分不足，不能兑换");
+
+
+
     private int code;
     private String msg;
     protected ResultCode(){
