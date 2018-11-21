@@ -47,6 +47,9 @@ public class ResultCode {
      * 会员相关
      */
     public static final ResultCode MEMBER_HAS_NO_SUCH_CONTACT = getResultCode(-50,"该会员无此联系人");
+    public static final ResultCode MEMBER_IS_NOT_LOGIN = getResultCode(-51,"会员未登录");
+    public static final ResultCode MEMBER_IS_NOT_EXIST = getResultCode(-52,"手机号不存在");
+    public static final ResultCode MEMBER_PASSWORD_WRONG = getResultCode(-53,"密码不正确");
 
     private int code;
     private String msg;
