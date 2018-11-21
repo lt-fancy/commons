@@ -38,12 +38,15 @@ public class ResultCode {
     public static final ResultCode ACTIVITY_IS_NOT_START = getResultCode(-31,"活动未开始，不能报名参加");
     public static final ResultCode ACTIVITY_IS_NOT_PARTICIPATE = getResultCode(-32,"活动不需要报名参加");
     public static final ResultCode ACTIVITY_IS_ALREADY_SIGN = getResultCode(-33,"您已报名该活动");
+    public static final ResultCode ACTIVITY_IS_CANCEL_WITHOUT_PARTICIPATE = getResultCode(-34,"您尚未报名该活动，不需要取消");
     /**
      * 礼品兑换相关
      */
     public static final ResultCode MEMBER_NO_ENOUGH_SCORE = getResultCode(-40,"积分不足，不能兑换");
-
-
+    /**
+     * 会员相关
+     */
+    public static final ResultCode MEMBER_HAS_NO_SUCH_CONTACT = getResultCode(-50,"该会员无此联系人");
 
     private int code;
     private String msg;
