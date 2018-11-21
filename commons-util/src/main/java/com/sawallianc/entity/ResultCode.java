@@ -37,6 +37,7 @@ public class ResultCode {
     public static final ResultCode ACTIVITY_IS_OVER = getResultCode(-30,"活动已结束，不能报名参加");
     public static final ResultCode ACTIVITY_IS_NOT_START = getResultCode(-31,"活动未开始，不能报名参加");
     public static final ResultCode ACTIVITY_IS_NOT_PARTICIPATE = getResultCode(-32,"活动不需要报名参加");
+    public static final ResultCode ACTIVITY_IS_ALREADY_SIGN = getResultCode(-33,"您已报名该活动");
     /**
      * 礼品兑换相关
      */
